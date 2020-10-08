@@ -1,0 +1,92 @@
+.detail-container {
+  display: grid;
+}
+
+.detail-container .menu {
+  text-align: center;
+}
+
+.detail-container .restaurant-menu{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-image: url('../public/images/background/background.jpg');
+  background-size: cover;
+}
+
+.detail-container .restaurant-menu ul li{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.detail-image {
+  position: relative;
+  top: 10px;
+}
+
+.detail-image .name {
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 5px rgb(27, 27, 27);
+  background-color: rgba(0, 128, 128, 0.493);
+  top: auto;
+  bottom: 30px;
+  padding: 5px 20px;
+}
+
+.detail-image img {
+  width: 100%;
+}
+
+.restaurant-detail {
+  position: relative;
+  padding: 0 20px;
+  background-color: transparent;
+  top: -40px;
+}
+
+#description{
+  position: relative;
+  text-indent: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.restaurant-detail .detail-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 10px 0;
+  column-gap: 10px;
+  row-gap: 10px;
+  max-width: 500px;
+}
+
+.restaurant-detail .restaurant-info {
+  list-style: none;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#save-favorite{
+  position: fixed;
+  top: auto;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(230, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}

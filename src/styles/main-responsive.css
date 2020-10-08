@@ -1,0 +1,86 @@
+@media screen and (min-width: 365px) {
+  .card .title-box .image-box img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .restaurant-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-box {
+    overflow: hidden;
+    height: 180px;
+  }
+
+  #navcontent {
+    padding: 0;
+    height: fit-content;
+    background-color: transparent;
+    position: static;
+    width: fit-content;
+  }
+
+  .navitem {
+    display: inline-block;
+    border: none;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #hero-content {
+    margin: 80px 0 50px 0;
+  }
+
+  #herotext-1 {
+    font-size: 24px;
+  }
+
+  #herotext-2 {
+    font-size: 34px;
+  }
+
+  #search-container {
+    width: 80%;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .restaurant-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #hero-content {
+    margin: 120px 0 80px 0;
+  }
+
+  #herotext-1 {
+    font-size: 30px;
+  }
+
+  #herotext-2 {
+    font-size: 40px;
+  }
+
+  #search-container {
+    margin: 80px auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #hero-content {
+    margin: 130px 0;
+  }
+
+  #herotext-1 {
+    font-size: 35px;
+  }
+
+  #herotext-2 {
+    font-size: 45px;
+  }
+}
